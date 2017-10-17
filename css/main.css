@@ -1,0 +1,198 @@
+/*header*/
+
+.main-navbar{
+	min-height: 131px;
+	background-color: #fff;
+}
+.top-nav{
+	min-height:45px;
+	border-bottom: 1px solid grey;
+}
+.bottom-nav{
+	min-height:90px;
+
+}
+.navbar{
+	margin-bottom: 0px !important;
+}
+.logo{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.contact-info li, .icons li{
+	list-style: none;
+	display: inline-block;
+	padding: 12px;
+}
+.li-items li{
+	list-style: none;
+	display: inline-block;
+	padding: 12px;
+	margin-top: 10px;
+}
+.butn{
+	float: left;
+	margin-top: 20px;
+}
+.header-img{
+	width: 100%;
+	height: 855px;
+}
+.tooth{
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 50px;
+}
+.iner-wrap{
+	float: right;
+}
+.read1{
+	text-align: center;
+}
+.bg-image{
+	background-image: url('../images/head1.jpg');
+	height: 850px;
+	width: 100%;
+}
+.blue-area{
+	background-color: #079DE6;
+	width: 100%;
+}
+.feature-box{
+	text-align: center;
+}
+.paragraph{
+	color:#000;
+}
+ .head small{
+ 	color:#000;
+ 	text-align: center;
+ }
+.paragraph-white{
+	color: #fff;
+}
+.person{
+	text-align: center;
+}
+.person img{
+	border: 5px solid grey;
+    border-radius: 50%;
+}
+.head-white{
+	color: #fff;
+}
+
+.team{
+	background-color: grey;
+	width: 100%;
+}
+.head h2{
+	color: #079DE6;
+}
+.wrapper{
+	margin-bottom: 25px;
+	display: inline-block;
+}
+
+.wrapper1{
+	margin-bottom: 25px;
+}
+
+.inside-wrapper{
+	background-color: #fff;
+    padding: 10px;
+    z-index: 99;
+    margin-top: -25px;
+}
+.upper{
+	background-color: #079DE6;
+	border-radius: 5px;
+	text-align: center;
+}
+.top-img img{
+	width: 100%;
+	height: 225px;
+	border-radius: 5px;
+}
+.booking{
+	background-color:#079DE6; 
+	color: #fff;
+}
+.button2{
+	background-color: #fff;
+    color: #079de6;
+     margin-top: 27px;
+    margin-bottom: 15px;
+
+}
+.li-item{
+	list-style: none;
+}
+.days{
+	list-style: none;
+}
+body{
+	font-family: lato;
+}
+h1{
+	color: #000;
+	text-align: center;
+}
+h1.white{
+	color: #fff;
+}
+footer{
+	text-align: center;
+}
+
+/*footer*/
+
+@media only screen and (max-width: 992px) {
+	.contact-info, .icons{
+		text-align: center;
+	}
+	 .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*>1200 */
+
+
+
+/*980-1199*/
+
+
+
+/*768-979*/
+
+
+
+/*480-767*/
+
+
+
+/*<479*/
